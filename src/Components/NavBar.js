@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             &lt;3
           </Typography>
-          <Button color="inherit">Donate</Button>
+          <Button color="inherit">Donate!</Button>
         </Toolbar>
       </AppBar>
     </div>
