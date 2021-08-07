@@ -5,8 +5,9 @@ import HomepageHeader from './Components/HomepageHeader'
 import UserImportSetting from './Components/UserImportSettings'
 import Grid from '@material-ui/core/Grid';
 import NetworkForm from './Components/NetworkForm';
+import DisplayForm from './Components/DisplayForm';
 import { useForm } from 'react-hook-form';
-
+import Information from './Components/Information';
 
 
 
@@ -35,7 +36,15 @@ function App() {
 
 
 
+        <Grid item xs={6}>
+
+          <DisplayForm>
+          </DisplayForm>
+
+        </Grid>
+
       </Grid>
+      <Information/>
     </div>
   );
 }
